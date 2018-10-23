@@ -18,16 +18,16 @@
 	height:100px ; 
 	margin-top:3px;
 	width: 100%;
-    padding: 6px 12px ;
-    font-size: 6vmax ;
+        padding: 6px 12px ;
+        font-size: 6vmax ;
 	background-color:transparent;
 	text-align:center;
 	font-weight:bolder;
 	margin: 3px solid #4bf3c4;
 	border-color: turquoise;
-    border-width: thick;
-    color: rgb(255, 255, 255);
-    overflow: hidden;
+        border-width: thick;
+       color: rgb(255, 255, 255);
+       overflow: hidden;
  }
  
  
@@ -49,7 +49,7 @@
 
 #col{
 	
-	font-weight: bolder;
+    font-weight: bolder;
     font-size: 50px;
     margin: 1px solid #4bf3c4;
     color: green;
@@ -67,7 +67,7 @@
 
 #row{
 	
-	font-weight: bolder;
+    font-weight: bolder;
     font-size: 50px;
     margin: 1px solid #4bf3c4;
     color: green;
@@ -85,7 +85,7 @@
 
 #flips-toggle-heading{
 	
-	color: turquoise;
+    color: turquoise;
     font-size: 17px;
     margin-left: 10px;
 }
@@ -133,45 +133,22 @@ background-color:cyan;
 	background-color:lightblue;
 	transform: translateZ(50px);
 }
-		/*@-webkit-keyframes spin-vertical {
-			from { -webkit-transform: rotateX(0); }
-			to { -webkit-transform: rotateX(-90deg); }
-		}
-
-		@-ms-keyframes spin-vertical {
-			from { ms-transform: rotateX(0); }
-			to { ms-transform: rotateX(-90deg); }
-		}
-*/
-		@keyframes spin-vertical {
-			from { transform: rotateX(0)}
-			to { transform: rotateX(-90deg)}
-		}
+	@keyframes spin-vertical {
+		from { transform: rotateX(0)}
+		to { transform: rotateX(-90deg)}
+	}
 .cube-wrap.vertical .cube {
 	margin: 0 auto; /* keeps the cube centered */
 
 	transform-origin: 0 50px;
 	animation: spin-vertical 5s infinite linear;
 }
-/*
-.cube-wrap.vertical .top {
-	/*transform: rotateX(-270deg) translateY(-25px);
-	transform: rotateZ(-90deg) translateZ(-100px);
-}
-
-.cube-wrap.vertical .back {
-	transform: translateX(-25px) rotateZ(90deg);
-}
-
-.cube-wrap.vertical .bottom {
-	transform: rotateX(-90deg) translateY(25px);
-}
 
 /*--------------toggle button begin ---------*/
 
 .toggle-button {
 	
-	width: 124px;
+    width: 124px;
     height: 50px;
     border-radius: 20%;
     margin-left: 10px;
@@ -180,7 +157,7 @@ background-color:cyan;
 }
 .toggle-button div {
 	
-	width: 60%;
+    width: 60%;
     height: 100%;
     float: left;
     background-color: turquoise;
@@ -225,12 +202,9 @@ background-color:cyan;
     text-align: center;
     background-color: turquoise !important;
 }
-
-
-
+	  
 .toggle-button div.active {
-	
-	font-size: -webkit-xxx-large;
+    font-size: -webkit-xxx-large;
     color: white;
     width: 40%;
     height: 100%;
@@ -258,8 +232,8 @@ input:-moz-placeholder { color:turquoise; }
 
 input::-webkit-input-placeholder {
     font-size: 3vmax;
-	font-weight:normal;
-	color: turquoise;
+    font-weight:normal;
+    color: turquoise;
 }
 
 input[type=number]::-webkit-inner-spin-button { 
@@ -306,40 +280,39 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
  .flex-container {
-	display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     max-height:100%;
-	max-width:70%;
+    max-width:70%;
     padding: 0;
     margin: 0;
-	list-style:none;
+    list-style:none;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex; 
-	 flex: 1;
-	 flex-wrap:wrap;
+    flex: 1;
+    flex-wrap:wrap;
 }
 
 .flex-item{
     background-color: crimson;
-	    padding: 5px;
+    padding: 5px;
     margin: 4%;
     width: 90%;
     height: 30%;
-	vertical-align:middle;
-	-webkit-backface-visibility: hidden ;
+    vertical-align:middle;
+    -webkit-backface-visibility: hidden ;
     z-index: 2;
     color: white;
     font-weight: bold;
-	border: 3px solid #4bf3c4;
-	font-size: -webkit-xxx-large;
+    border: 3px solid #4bf3c4;
+    font-size: -webkit-xxx-large;
     text-align: center;
-	cursor:pointer;
-	list-style:none;
-	 text-overflow: ellipsis;
-   
+    cursor:pointer;
+    list-style:none;
+    text-overflow: ellipsis;
 }
 
 .col-sm-5ths {
@@ -347,8 +320,8 @@ input[type=number]::-webkit-inner-spin-button {
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
-        width: 20%;
-        float: left;
+    width: 20%;
+    float: left;
 }
 
 .face {
@@ -381,11 +354,8 @@ p{
     font-size: 20px;
 }
 
-
-
 .face.back {
-	
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
     background: navy;
     border: 3px solid #ff6a00;
     min-width: 100%;
@@ -394,7 +364,7 @@ p{
 }
 
 .flipped{
-	transform: rotateY(180deg);
+   transform: rotateY(180deg);
   -webkit-transform: rotatey(-180deg);
    -webkit-transform-style: preserve-3d;
   -webkit-transition: 0.5s;
@@ -420,15 +390,15 @@ p{
 }
 
 #back .a:hover #span { 
-display: block; 
-position: absolute; 
-width: 200px; 
-background: #aaa; 
-height: 50px; 
-left: 100px; 
-top: -10px; 
-color: #FFFFFF; 
-padding: 0 5px; 
+	display: block; 
+	position: absolute; 
+	width: 200px; 
+	background: #aaa; 
+	height: 50px; 
+	left: 100px; 
+	top: -10px; 
+	color: #FFFFFF; 
+	padding: 0 5px; 
 
 }
 }
@@ -509,15 +479,14 @@ padding: 0 5px;
 
 
 .glyphicon{
-	color:crimson;
-	background-color:transparent;
-	font-size: xx-large;
-	cursor:pointer;
+     color:crimson;
+     background-color:transparent;
+     font-size: xx-large;
+     cursor:pointer;
 }
 
 .toggle-button div {
-	
-	width: 40%;
+    width: 40%;
     height: 100%;
     float: left;
     background-color: turquoise;
@@ -561,9 +530,9 @@ padding: 0 5px;
 
 
 .glyphicon.glyphicon-ok-circle{
-	color:white;
-	height:20px;
-	width:20px;
+    color:white;
+    height:20px;
+    width:20px;
 }
 
 .panel-heading {
@@ -583,15 +552,15 @@ padding: 0 5px;
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
-        width: 20%;
-        float: left;
+    width: 20%;
+    float: left;
 }
 
 #score-board{
-	max-width:100%;
-	padding:0px;
-	font-size:10px;
-	margin: 0px;
+   max-width:100%;
+   padding:0px;
+   font-size:10px;
+   margin: 0px;
 }
 
 
@@ -644,25 +613,25 @@ font-weight: bolder;
 
     height: 50px ! important;
     font-size: 6vmax;
-	text-align:center;
-	font-weight:bolder;
-	margin: 3px solid #4bf3c4;
-	color:green;
-	border-color: turquoise;
+    text-align:center;
+    font-weight:bolder;
+    margin: 3px solid #4bf3c4;
+    color:green;
+    border-color: turquoise;
     border-width: thick;
     color: rgb(255, 255, 255);
     overflow: hidden;
-	background-color: transparent;
+    background-color: transparent;
 
  }
  
  .container{
-	 width:100%;
+    width:100%;
  }
  
  
 .flex-container{
-	width:55%;
+    width:55%;
 }
 	 
 .flex-item {
@@ -679,13 +648,13 @@ font-weight: bolder;
     margin: 3%;
     border: #337ab7;
     float: left;
-	cursor:pointer;
-	list-style:none;
+    cursor:pointer;
+    list-style:none;
 	
 }
 
 .flex-item.flipped{
-	padding:0px;
+    padding:0px;
 }
 
 .face.back {
@@ -700,98 +669,9 @@ font-weight: bolder;
     width: 50px;
 	margin-radius:25%;
 }
-
-
-}
-
-/* Tablet *
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1023px) {
 	  
-	   .form-control{
-	 height:100px  
-	 width: 100% ! important;
-    height: 60px ! important;
-    padding: 6px 12px ! important;
-    font-size: 6vmax ! important;
-	background-color:transparent !important;
- }
-	  
-	.flex-container {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-	width:250px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-	flex-wrap:wrap;
-    justify-content:left;
-}
-
-.flex-item {
-    background-color: tomato;
-    padding: 5px;
-    width: 110px;
-    height: 100px;
-    margin: 10px;
-    line-height: 91px;
-    color: white;
-    font-weight: bold;
-    font-size: 6em;
-    text-align: center;
-	cursor:pointer;
-	list-style:none;
-}  
-
-}
-
- /*Laptop */
-
-
-/* Wearable *
-@media
-  (max-device-width: 42mm)
-  and (min-device-width: 38mm) { 
-  
-  .flex-container {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-	flex-wrap:wrap;
-    justify-content:left;
-}
-
-.flex-item {
-    background-color: tomato;
-    padding: 1px;
-    width: 12px;
-    height: 12px;
-    margin: 1px;
-    line-height: 6px;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-	cursor:pointer;
-	list-style:none;
-}
-  
-}
-
-
 .form-control{
-
-	width:100px ! important;
-	
+	width:100px ! important;	
 }
 
 

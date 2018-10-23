@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Game</title>
+<meta name="viewport" content="width=device-width">
+<Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="site.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<Script src="site.js"></script>
+
+</head>
+<body id="body">
+<div class="container">
+	<div>
+    <center><input type="number" placeholder=" Enter Game Number here...." class="form-item form-control" min="999" max="999999999" id="gamenum"/>
+	<div id="gamenumerrmsg"></div> 
+	</center>
+	</div>
+	</br>
+	</div>
+<div class="panel">
+<div class="row">
+<div class="col-sm-2">
+<div id="flips-toggle-heading">
+	Flips You Need
+</div>
+<div class="toggle-button">
+  <div class="on active"><center><span>3</span></center></div>
+  <div class="off non-active"><center><span>4</span></center></div>
+</div>
+</div>
+<div class="col-sm-2 col-xs-6">	
+<div id="flips-toggle-heading">
+	Columns
+</div>
+		<div class="input-group">
+                    <span class="input-group-addon"><i id="col-minus"class="glyphicon glyphicon-minus-sign"></i></span>
+                     <input type="number" class="form-control" value=3 readonly="readonly" id="col"/>
+					 <span class="input-group-addon"><i id="col-plus" class="glyphicon glyphicon-plus-sign"></i></span>
+        </div>
+	<div id="col-msg"></div>
+</div>
+<div class="col-sm-2 col-xs-6">
+		<div id="flips-toggle-heading">
+	rows
+	</div>
+		<div class="input-group">
+                    <span class="input-group-addon"><i id="row-minus" class="glyphicon glyphicon-minus-sign"></i></span>
+                    <div class="icon-addon">
+                        <input type="number" class="form-control" value=3 readonly="readonly" id="row"/>
+                    </div>
+					 <span class="input-group-addon"><i id="row-plus" class="glyphicon glyphicon-plus-sign"></i></span>
+		 
+        </div>
+<div id="row-msg"></div>
+</div>
+<!--<div id="score-board" class="score-board col-sm-6 col-xs-12">text area for score board</div>
+</div>-->
+ <div id="score-board" class="panel col-sm-6 col-xs-12 panel-info">
+      <div class="panel-heading"><center>Score board</center></div>
+      <div class="panel-body">
+	  </div>
+	  <div class="panel-footer">Your Score is :</div>
+    </div>
+
+</div>
+<div class="clearfix"></div>
+<div class="wrap">
+	<center><div id="load-flex" class="btn btn-primary">Click here</div></center>
+</div>
+</br>
+<center>
+<div id="flex">
+</div>
+</center>
+
+</body>
+</html>
+
+
+
+
+
+            
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
